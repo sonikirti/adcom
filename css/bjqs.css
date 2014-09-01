@@ -1,0 +1,91 @@
+
+/* Basic jQuery Slider essential styles */
+
+ul.bjqs {
+	position: relative;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	display: none;
+}
+
+li.bjqs-slide {
+	position: absolute;
+	display: none;
+}
+
+ul.bjqs-controls {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	z-index: 9999;
+}
+
+ul.bjqs-controls.v-centered li a {
+	position: absolute;
+}
+
+ul.bjqs-controls.v-centered li.bjqs-next a {
+	right: 0;
+}
+
+ul.bjqs-controls.v-centered li.bjqs-prev a {
+	left: 0;
+}
+
+ol.bjqs-markers {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	position: absolute;
+	top: 10px;
+}
+
+ol.bjqs-markers.h-centered {
+	text-align: left;
+}
+
+ol.bjqs-markers li {
+	display: inline;
+}
+
+ol.bjqs-markers li a {
+	display: inline-block;
+}
+
+p.bjqs-caption {
+	display: block;
+	width: 96%;
+	margin: 0;
+	padding: 2%;
+	position: absolute;
+	bottom: 0;
+}
+
+ul.bjqs-controls.v-centered li a {
+	display: none;
+}
+
+ol.bjqs-markers li a {
+	padding: 0px;
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	text-indent: 1111111px;
+	background: #fff;
+	margin: 2px 4px 2px 0;
+	text-decoration: none;
+	box-shadow: 0 1px 0 #0c4878;
+	-webkit-box-shadow: 0 1px 0 #0c4878;
+	-moz-box-shadow: 0 1px 0 #0c4878;
+}
+
+ol.bjqs-markers li.active-marker a, ol.bjqs-markers li a:hover {
+	background: #1670b8;
+}
+
+p.bjqs-caption {
+	background: rgba(255,255,255,0.5);
+}
