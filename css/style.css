@@ -104,7 +104,8 @@ img { max-width: 100%; }
 .signupcontainer input:hover { border: 1px solid #1670b8; cursor: pointer; }
 .signupcontainer label { margin-top: 15px; }
 .button { background: #2483c5; color: #ffffff; }
-.button a { color: #ffffff; }
+.button a { color: #ffffff; font-weight:300; }
+.neg_marginright { margin-right:-40px !important; }
 .greenbtn { margin: 15px 0 0 0; }
 .greenbtn a { color: #ffffff; background: #48a472; padding: 5px; border-bottom: 3px solid #1d7042; border-radius: 5px; }
 .greenbtn a:hover { color: #ffffff; background: #2a8353; }
@@ -225,7 +226,7 @@ img { max-width: 100%; }
 .contactform select { border: 1px solid #cfcfcf; width: 226px; height: 28px; margin: 0 0 10px 0; font-size: 15px; color:#403d3e; }
 .contactform select:hover { border: 1px solid #cfcfcf; cursor: pointer; }
 .contactform textarea { max-width: 330px; height: 145px; margin: 0 0 10px 0; color: #403d3e }
-.contactform .submit_btn { float: left; width: 106px; height: 33px; background: #d8d8d8; color: #000; border: none; margin-left:24px; }
+.contactform .submit_btn { float: left; width: 106px; height: 33px; background: #2483c5; color: #ffffff; border: none; margin-left:24px; }
 .contactform .submit_btn:hover { background: #959595; color: #fff; border: none }
 .border { border-top: 4px solid #f3f3f3; margin-top:-4px; }
 .contactbg { background:url(../images/contactbg.png) no-repeat right top; margin:10px 0 0 0; }
@@ -317,9 +318,12 @@ ul.list2 li { list-style: square; list-style-image: url(../images/list_image2.pn
 
 ul.dropdown-menu{ padding:40px 18px 22px 34px; background:url../images/dropdown_bg.jpg) no-repeat scroll;}
 ul.dropdown-menu p{ color:#e01e26; font-size:17px; margin-bottom:20px}
-ul.dropdown-menu li{ list-style-image:url(../images/black_arrow.jpg); list-style-position:inside; margin-bottom:20px}
-ul.dropdown-menu li a{ color:#000; font-size:15px}
-ul.dropdown-menu li a:hover{ color:#e01e26;}
+ul.dropdown-menu li:before { background-image:url(../images/black_arrow.png); background-repeat:no-repeat; background-position:left top; height:9px; width:4px; display:table; content:""; position:absolute; right: -6px; top:5px; }
+ul.dropdown-menu li { padding-right:10px; background-size:4px 9px; margin-bottom:20px; position:relative; }
+ul.dropdown-menu li a { color:#000; font-size:15px}
+ul.dropdown-menu li:hover a { color:#e01e26; }
+ul.dropdown-menu li:hover:before{ background-position:left -30px; }
+
 /*----------------------MY CSS clients Page Start------------------------*/
 .clients_logos .col-sm-4 { padding: 7px }
 
