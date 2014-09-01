@@ -127,7 +127,7 @@ img { max-width: 100%; }
 .compareimg { display: none; position: relative; top: 0; }
 .img-1 { display: inline; }
 .footercontainer p { font-size: 13px; color: #000000; max-width: 170px; }
-.footercontainer .redtext { font-size: 25px; }
+.footercontainer .redtext { font-size: 25px; font-weight: 300; }
 .footercontainer .title { font-size: 17px; color: #959595; font-weight: 300; }
 .footercolumn_two ul li { font-size: 15px; color: #959595; line-height: 24px; }
 .footercolumn_two ul li span { float: right; display: block; margin-left: 8px; margin-top: 6px; }
@@ -308,7 +308,7 @@ p.para { font-size: 15px; padding: 20px 0px 0px 0px; border-top: 4px solid #f3f3
 ul.list2 { padding: 20px 5px 0px 0px; border-top: 4px solid #f3f3f3; margin-top: -4px; }
 ul.list2 li { list-style: square; list-style-image: url(../images/list_image2.png); font-size: 15px; margin-bottom: 16px }
 .inputcontainer { padding: 20px 0px 0px 0px; border-top: 4px solid #f3f3f3; margin-top: -4px; }
-.inputcontainer input { width: 281px; height: 28px; margin: 0 0 15px 0; border-radius: 0px; color: #000 }
+.inputcontainer input { width: 100%; height: 28px; margin: 0 0 15px 0; border-radius: 0px; color: #000000; box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; -webkit-box-shadow: none; }
 .inputcontainer input:hover { border: 1px solid #cfcfcf; cursor: pointer; background: #f6f6f6; }
 .blue_btn a { background: #2483c5; color: #fff; font-size: 30px; padding: 6px 36px 6px 36px; font-weight: 300; }
 .blue_btn a:hover { background: #959595; color: #fff; }
