@@ -207,7 +207,7 @@ a.page_nav:hover { padding: 1px 3px 1px 3px; color: #959595; background: #eaeaea
 .owl-prev { float:left; box-shadow:-2px 0px 2px rgba(131,131,131,0.27); -webkit-box-shadow:2px 0px 2px rgba(131,131,131,0.27); -moz-box-shadow:2px 0px 2px rgba(131,131,131,0.27);}
 .owl-next { float:right; box-shadow:-2px 0px 2px rgba(131,131,131,0.27); -webkit-box-shadow:-2px 0px 2px rgba(131,131,131,0.27); -moz-box-shadow:-2px 0px 2px rgba(131,131,131,0.27);}
 .owl-prev:hover, .owl-next:hover { color:#e01e26;}
-
+.row-clients .clients_logos { margin-right:-7px;}
 /*------------------------------------Media Query-----------------------------------*/
 
 @media (max-width: 1080px) {
