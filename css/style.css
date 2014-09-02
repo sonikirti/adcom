@@ -254,6 +254,7 @@ toggle:focus { background-color: #e01e26 !important; }
 }
 
 @media (max-width: 767px) {
+.rightcontainer	.vspace-20 { padding:5px !important;}
 .margintop70 { margin-top:10px !important; display: block; }
 .rightcontainer .box { margin-top:26px !important; margin-bottom:0px !important;}
 .leftcontainer p span.image { margin-top: 10px; max-width: none; }
@@ -265,6 +266,7 @@ toggle:focus { background-color: #e01e26 !important; }
 .borderight { background: none; }
 .ls-circle-timer { top: 0; }
 .phone { width:190px;}
+<<<<<<< HEAD
 
 
 
@@ -290,6 +292,10 @@ toggle:focus { background-color: #e01e26 !important; }
 
 
 .productform .title h1 { font-size:28px; }
+=======
+.articleimg { width:auto; height:auto;}
+.article p, .articletitle { padding-right:0;}
+>>>>>>> origin/master
 
 }
 
