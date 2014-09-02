@@ -76,6 +76,8 @@ img { max-width: 100%; }
 .nav > li > a:hover, .nav > li > a:focus { text-decoration: none; background-color: #ffffff; color: #1670b8; }
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus { background-color: #ffffff; }
 .button { background: #2483c5; color: #ffffff; }
+.button:hover { background:#959595; }
+
 .button a { color: #ffffff; font-weight: 300; }
 .box { cursor: pointer; background: #f3f3f3; padding: 10px 10px 25px 10px; min-height:240px; position: relative; margin-bottom:20px; }
 .rightcontainer .box { min-height:0px;}
@@ -157,7 +159,7 @@ ul.dropdown-menu li:hover:before { background-position: left -30px; }
 .rightcontainer .box { padding-bottom: 10px; }
 .border_bottom { border-bottom: 1px solid #cacaca; }
 .socailicons { padding-top: 20px; }
-.leftcontainer .button { width: 96px; height: 33px; display: block; text-align: center; font-size: 30px; padding: 3px 0 0 0; margin-top: 0px; margin-right: 0px; }
+.leftcontainer .button { width: 96px; height: 33px; display: block; text-align: center; font-size: 30px; margin-top: 0px; margin-right: 0px; }
 .productform .title { display: block; }
 .productform .title h1 { font-size: 30px; color: #000000; border-bottom: 4px solid #2483c5; font-weight: 300; }
 /*------------------------------------Clients Page-----------------------------------*/
@@ -167,7 +169,7 @@ ul.dropdown-menu li:hover:before { background-position: left -30px; }
 .clientpadding { padding: 0 7px 7px 0 !important; display: block; }
 .productform h1 { color: #1670b8; font-size: 28px; letter-spacing: -1px; }
 .productform input { float: right; display: block; max-width: 198px; height: 28px; margin: 0px 0px 15px 10px; color: #000000; font-size: 17px; border-radius: 0; border: 1px solid #cfcfcf; box-shadow: none !important; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; }
-.productform input:hover { border: 1px solid #1670b8; cursor: pointer; }
+.productform input:hover { border: 1px solid #cfcfcf; background: #f6f6f6; }
 .productform ul li { display: block; float: right; }
 .productform .form-group { width: 100%; margin: 0 auto; display: block; max-width: 980px; }
 a.page_nav { padding: 1px 3px 1px 3px; color: #959595; background: #f7f7f7 }
@@ -183,7 +185,7 @@ a.page_nav:hover { padding: 1px 3px 1px 3px; color: #959595; background: #eaeaea
 .contactform select { border: 1px solid #cfcfcf; width: 226px; height: 28px; margin: 0 0 10px 0; font-size: 15px; color: #403d3e; }
 .contactform select:hover { border: 1px solid #cfcfcf; cursor: pointer; }
 .contactform textarea { max-width: 330px; width:100%; height: 145px; margin: 0 0 10px 0; padding:6px 8px; outline:0; color: #403d3e }
-.contactform .submit_btn { float: left; width: 106px; height: 33px; background: #2483c5; color: #ffffff; border: none; margin-left: 24px; }
+.contactform .submit_btn { float: left; width: 106px; height: 33px; background: #2483c5; color: #ffffff; border: none; margin-left: 24px; font-size:30px; font-weight:300; }
 .contactform .submit_btn:hover { background: #959595; color: #fff; border: none }
 .border { border-top: 4px solid #f3f3f3; margin-top: -4px; }
 .contactbg { background: url(../images/contactbg.png) no-repeat right top; margin: 10px 0 0 0; }
@@ -263,6 +265,32 @@ toggle:focus { background-color: #e01e26 !important; }
 .borderight { background: none; }
 .ls-circle-timer { top: 0; }
 .phone { width:190px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.productform .title h1 { font-size:28px; }
+
 }
 
 
