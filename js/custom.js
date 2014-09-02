@@ -9,7 +9,23 @@ $(document).ready(function () {
 	rtl:true,
     responsiveClass:true,
     items:9,
-    nav:true,			
+    nav:true,	
+	autoplay:true,
+	responsive:{
+        0:{
+            items:3,
+            nav:true
+        },
+        600:{
+            items:5,
+            nav:false
+        },
+        1000:{
+            items:9,
+            nav:true,
+            loop:false
+        }
+	}
 	
 	});
 		

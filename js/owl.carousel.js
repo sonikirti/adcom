@@ -2700,7 +2700,7 @@
 	Navigation.Defaults = {
 		nav: false,
 		navRewind: true,
-		navText: [ '<i class="icon-caret-left"></i>', '<i class="icon-caret-right"></i>' ],
+		navText: [ '<i class="fa fa-caret-left"></i>', '<i class="fa fa-caret-right"></i>' ],
 		navSpeed: false,
 		navElement: 'div',
 		navContainer: false,
