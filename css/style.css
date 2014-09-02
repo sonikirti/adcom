@@ -64,10 +64,12 @@ img { max-width: 100%; }
 .topnavwrap { width: 100%; display: block; padding-bottom: 0px; position: relative; z-index: 1111; }
 .navbar-default { background: none; border: none; font-family: 'almoni-dl'; font-weight: 400; margin-bottom: 0; }
 .navbar-default .navbar-nav { padding-top: 100px; padding-right: 80px; }
-.navbar-default .nav > li > a { color: #000000; font-size: 25px; font-weight: 300; padding-top: 12px; padding-bottom: 13px; }
+.navbar-default .nav > li > a { color: #000000; font-size: 25px; font-weight: 300; padding-top: 12px; padding-bottom: 13px; position:relative; }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { color: #e01e26; background-color: none !important; }
 .navbar-default .navbar-brand { padding: 9px; }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus { color: #e01e26; background-color: #fff; }
+.navbar-default .navbar-nav > li > a:hover:after, .navbar-default .navbar-nav > li > a:focus:after { width: 0; height: 0; border-style: solid; border-width: 0 0 20px 10px; border-color: transparent transparent #eeeeee transparent; position:absolute; right:0px; bottom:0px; display:table; content:""; }
+.navbar-default .navbar-nav > li.dropdown > a:hover:after, .navbar-default .navbar-nav > li.dropdown > a:focus:after { display:none; }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus { color: #e01e26; background-color: #fff; border-bottom-color: #fff; z-index: 10001; border-radius: 0; }
 .navbar-nav > li > .dropdown-menu { border: none; list-style: disc; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; color: #000000; font-size: 17px; min-width: 540px; width: 100%; border-radius: 3px 0 3px 3px; margin-top: -1px; background: #fff url(../images/dropdown_bg.jpg) no-repeat scroll }
 .navbar-nav > li > .dropdown-menu > li { list-style: disc; list-style-position: inside; padding: 0px 20px; }
@@ -266,7 +268,7 @@ toggle:focus { background-color: #e01e26 !important; }
 .borderight { background: none; }
 .ls-circle-timer { top: 0; }
 .phone { width:190px;}
-<<<<<<< HEAD
+
 
 
 
@@ -292,10 +294,10 @@ toggle:focus { background-color: #e01e26 !important; }
 
 
 .productform .title h1 { font-size:28px; }
-=======
+
 .articleimg { width:auto; height:auto;}
 .article p, .articletitle { padding-right:0;}
->>>>>>> origin/master
+
 
 }
 
