@@ -59,6 +59,7 @@ img { max-width: 100%; }
 .no-maxwidth { max-width: none; }
 .border-left1 { border-left: 1px solid #f4f4f4; }
 .maincontainer { max-width: 1024px; width: 100%; margin: 0 auto; position: relative; }
+.width120 { width:110% !important; max-width:1140px; }
 
 /*------------------------------------Index Page-----------------------------------*/
 
@@ -160,7 +161,7 @@ ul.dropdown-menu li:hover:before { background-position: left -30px; }
 .articleimg a { display: block; }
 .articleimg a img { height: 100%; }
 .redtext { color: #e01e26 !important; }
-.continueread { color: #e01e26 !important; background: #f3f3f3; height: 25px; width: 130px; padding: 2px 0 0 0; text-align: center; }
+.continueread { color: #e01e26 !important; background: #f3f3f3; height: 25px; width: 130px; padding: 2px 0 0 0; text-align: center; margin:15px 0 15px 0; display:block; }
 .continueread:hover { background: #d8d8d8; }
 .rightcontainer span { margin-bottom: 20px; display: block; position: absolute; left: -10px; top: -10px; }
 .rightcontainer i { padding-top: 30px; display: block; }
@@ -211,11 +212,11 @@ a.page_nav:hover { padding: 1px 3px 1px 3px; color: #959595; background: #eaeaea
 .footer-credit:hover { background-position: left -71px; }
 
 .owl-nav { position:absolute; width:100%; height:100%; top:0; right:0; font-size:20px; color:#959595;}
-.owl-prev, .owl-next { width:25px; text-align:center; background:#f5f5f5; vertical-align:middle;}
+.owl-prev, .owl-next { width:30px; text-align:center; background:#f5f5f5; vertical-align:middle;}
 .owl-prev i, .owl-next i { line-height:76px; vertical-align:middle;}
-.owl-prev { float:left; box-shadow:-2px 0px 2px rgba(131,131,131,0.27); -webkit-box-shadow:2px 0px 2px rgba(131,131,131,0.27); -moz-box-shadow:2px 0px 2px rgba(131,131,131,0.27);}
-.owl-next { float:right; box-shadow:-2px 0px 2px rgba(131,131,131,0.27); -webkit-box-shadow:-2px 0px 2px rgba(131,131,131,0.27); -moz-box-shadow:-2px 0px 2px rgba(131,131,131,0.27);}
-.owl-prev:hover, .owl-next:hover { color:#e01e26;}
+.owl-prev { float:left; background:url(../images/slider_logos/prev_btn_bg.png) no-repeat right -10px center; }
+.owl-next { float:right; background:url(../images/slider_logos/nxt_btn_bg.png) no-repeat left -8px center; }
+.owl-prev:hover, .owl-next:hover { color:#e01e26; }
 .row-clients .clients_logos { margin-right:-7px;}
 /*------------------------------------Media Query-----------------------------------*/
 
@@ -248,7 +249,6 @@ ol.bjqs-markers { left: 0 !important; }
 .contactform .submit_btn { margin-left:0;}
 .topnavwrap { border-bottom:1px solid #E0E0E0; display:block; }
 .margintop70 { margin-top:100px !important; display: block; }
-.continueread { margin:15px 0 0 0; }
 .neg_marginright { margin-right: -10px !important; }
 .navbar-default .navbar-brand { float: right; }
 
