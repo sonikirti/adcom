@@ -278,13 +278,13 @@ toggle:focus { background-color: #e01e26 !important; }
 .leftcontainer p span.image { margin-top: 10px; max-width: none; }
 .leftcontainer { margin-bottom: 66px; }
 .padddingrt-35 { padding-right: 15px; }
-.productform ul li { width: 100%; }
+.productform ul li { width: 100%; max-width: 244px; }
 .article { margin-left: 0; margin-right: 0; }
 .contactform input { max-width: 100%; }
 .borderight { background: none; }
 .ls-circle-timer { top: 0; }
 .phone { width:190px;}
-.productform input { width:244px; }
+.productform input { max-width:244px;  }
 
 
 
